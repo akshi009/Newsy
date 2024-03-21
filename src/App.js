@@ -25,7 +25,7 @@ export default class App extends Component {
           <Routes>
             <Route
               exact
-              path="/"
+              path="/Newsapp-ReactClassComponent/"
               element={
                 <News
                   setProgress={this.setProgress}
@@ -40,7 +40,7 @@ export default class App extends Component {
 
             <Route
               exact
-              path="/science"
+              path="/Newsapp-ReactClassComponent/science"
               element={
                 <News
                   setProgress={this.setProgress}
@@ -55,7 +55,7 @@ export default class App extends Component {
 
             <Route
               exact
-              path="/business"
+              path="/Newsapp-ReactClassComponent/business"
               element={
                 <News
                   setProgress={this.setProgress}
@@ -70,7 +70,7 @@ export default class App extends Component {
 
             <Route
               exact
-              path="/entertainment"
+              path="/Newsapp-ReactClassComponent/entertainment"
               element={
                 <News
                   setProgress={this.setProgress}
@@ -84,7 +84,7 @@ export default class App extends Component {
             />
             <Route
               exact
-              path="/sport"
+              path="/Newsapp-ReactClassComponent/sport"
               element={
                 <News
                   setProgress={this.setProgress}

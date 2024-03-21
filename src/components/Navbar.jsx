@@ -6,26 +6,26 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg sticky top-0 z-10 bg-gray-800">
         <div className="container-fluid">
-          <Link className="navbar-brand text-white font-sans font-bold" to="/">Newsy</Link>
+          <Link className="navbar-brand text-white font-sans font-bold" to="/Newsapp-ReactClassComponent/">Newsy</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon bg-white p-2 border-none rounded focus:border-none"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 lg:mx-10 mb-lg-0">
             <li className="nav-item">
-                <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/">Home</Link>
+                <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/Newsapp-ReactClassComponent/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/entertainment">Movies</Link>
+                <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/Newsapp-ReactClassComponent/entertainment">Movies</Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/sport">Sport</Link>
+              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/Newsapp-ReactClassComponent/sport">Sport</Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/business">Business</Link>
+              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/Newsapp-ReactClassComponent/business">Business</Link>
               </li>
               <li className="nav-item">
-              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/science">Science</Link>
+              <Link className="nav-link text-gray-400 font-medium lg:mx-1 hover:text-blue-300" to="/Newsapp-ReactClassComponent/science">Science</Link>
               </li>
              
             </ul>
