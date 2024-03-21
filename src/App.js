@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import News from "./components/News";
 export default class App extends Component {
   pageSize = 11;
-  apiKey = process.env.REACT_APP_NEWS_API_KEY;
+  // apiKey = process.env.REACT_APP_NEWS_API_KEY;
   state = {
     progress: 0,
   };
@@ -29,7 +29,6 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
-                  apiKey={this.apiKey}
                   key="general"
                   pageSize={this.pageSize}
                   country="in"
@@ -44,7 +43,6 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
-                  apiKey={this.apiKey}
                   key="science"
                   pageSize={this.pageSize}
                   country="in"
@@ -59,7 +57,6 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
-                  apiKey={this.apiKey}
                   key="business"
                   pageSize={this.pageSize}
                   country="in"
@@ -74,7 +71,6 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
-                  apiKey={this.apiKey}
                   key="movie"
                   pageSize={this.pageSize}
                   country="in"
@@ -88,7 +84,6 @@ export default class App extends Component {
               element={
                 <News
                   setProgress={this.setProgress}
-                  apiKey={this.apiKey}
                   key=""
                   pageSize={this.pageSize}
                   country="in"
