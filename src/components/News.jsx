@@ -268,7 +268,7 @@ export class News extends Component {
                                 article.description ? article.description.slice(0, 200) + '...' : ''
                             }
                             image={article.urlToImage}
-                            newsUrl={article.url}
+                            url={article.url}
                             time={article.publishedAt}
                             author={article.author}
                             source={article.source.name}
