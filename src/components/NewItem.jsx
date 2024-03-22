@@ -4,7 +4,7 @@ export default class NewItem extends Component {
   render() {
     let { title, description, image, url, time, source, author } = this.props;
     return (
-      <div className="card w-full h-[80%]  transition-all duration-300 flex flex-col justify-between hover:border-blue-500 ">
+      <div className="card w-full relative  transition-all duration-300 flex flex-col justify-between hover:border-blue-500 ">
         <span className="badge bg-red-500 bg-opacity-80 font-medium absolute top-2 p-2 left-2 z-1">{source}</span>
         <img src={image} className="card-img-top h-60" alt="..." />
         <div className="card-body">
